@@ -1,0 +1,112 @@
+.name {
+   width: 30%; 
+   float: left;
+   
+}
+
+.nav {
+   width: 50%;
+  left: 45%;
+    
+}
+
+.nav, .name {
+   
+    padding: 30px;
+    position: relative;
+    
+
+}
+.container {
+    background-color: rgb(153, 0, 0);
+    padding: 60px 20px;
+    border: 2px black solid;
+    margin: 1%;
+}
+
+.spongebob {
+    height: 250px;
+    /* border: 5px goldenrod solid; */
+    float: left;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+}
+.right {
+    height: auto;
+    position: relative;
+    top: -.5%;
+    /* border: 5px black solid; */
+}
+
+header {
+    padding: 2%;
+    border: 5px black solid;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+main, header, footer {
+    padding: .5%;
+    border: 2px goldenrod solid;
+    background-color: grey;
+    width: 960px;
+}
+
+main, footer {
+    position: relative;
+    top: 15.5%;
+    margin: .25% 0;
+}
+
+
+
+
+
+p {
+    margin: 1%;
+    height: auto;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.bottom {
+    position: relative;
+    border: 2px goldenrod solid;
+    top: 5%;
+    margin: 10px 0;
+}
+.container2 {
+    background-color: rgb(119, 23, 16);
+    padding: 20px 20px;
+    border: 2px goldenrod solid;
+    margin: 1%;
+    height: auto;
+    }
+
+a {
+    text-align: center;
+    border: black 1px solid;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    background-color: goldenrod;
+    padding: 2%;
+
+}
+.i {
+    left: 12%;
+}
+.p {
+    left: 38%;
+}
+.c {
+    left: 70%;
+}
+body {
+    margin: 0;
+    height: 900px;
+}
